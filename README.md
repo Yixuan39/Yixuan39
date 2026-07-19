@@ -1,40 +1,50 @@
 # Yixuan Yang
 
-**Computational Biologist | Statistical Geneticist**
-Ph.D. Candidate in Bioinformatics @ NC State University. 
-Focusing on meta-omics, multi-omics, precision medicine, pipeline development...
+**Computational biologist | Statistics, multi-omics, and scientific computing**
 
-📫 Contact: yyang55@ncsu.edu | [LinkedIn](www.linkedin.com/in/yixuan-yang-319978184) 
+Hi, I'm Yixuan 👋 — a computational biologist and Ph.D. candidate in Bioinformatics at North Carolina State University, advised by [Benjamin Callahan](https://callahanlab.cvm.ncsu.edu/), with M.S. and B.S. training in Statistics.
 
----
+My work combines statistical modeling, reproducible workflows, and scientific software to study complex biological data. My research spans meta-omics, the gut–brain axis, plant pathogen genomics, and molecular evolution, with particular interest in how measurement and study design shape biological inference.
 
-### 🧬 Core Competencies
-* **Omics & Analytics:** Microbiome Analysis, Statistical Inference, Dimensionality Reduction, Differential Abundance.
-* **Machine Learning:** Biomarker Predictive Modeling (Random Forest, SVM), Deep Learning, NLP (Transformers).
-* **Engineering & Scale:** Nextflow (DSL2), HPC (Slurm), Docker/Singularity, AWS (EC2, S3).
-* **Languages:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) 
+## Methods and tools
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) ![Bioconductor](https://img.shields.io/badge/Bioconductor-5A8C8C?style=flat) ![Nextflow](https://img.shields.io/badge/Nextflow-23AA62?style=flat)
 
-### 🚀 Highlighted Projects
+- **Quantitative methods:** Statistical inference, study design, causal inference, compositional data analysis, differential expression and abundance, machine learning
+- **Biological data:** Metagenomics, metaproteomics, PacBio HiFi sequencing, amplicon sequencing, RNA-seq
+- **Scientific computing:** Python, R/Bioconductor, Nextflow, containers (Docker, Singularity), scalable computing (HPC/Slurm, AWS), SQL, Parquet, MuData
 
-#### 1. [Microbiome-Disease Associative Modeling & Biomarker Discovery](https://github.com/Yixuan39/CanineEpilepsy2.git)
-* **Objective:** Identified critical microbial risk factors and predicted disease status from high-dimensional, sparse microbiome data (300+ features).
-* **Methods:** Random Forest, robust ensemble differential abundance analysis, PERMANOVA.
-* **Outcome:** Quantified and controlled for household confounders (~70% variance), significantly improving biomarker reproducibility for potential therapeutic intervention.
+## Projects
 
-#### 2. [Scalable Multi-Stage Genomic Pipeline](https://github.com/Yixuan39/TEA.git)
-* **Objective:** Automated end-to-end processing of 100GB+ high-throughput genomic sequencing datasets.
-* **Methods:** Nextflow (DSL2), Docker, HPC, hifiasm.
-* **Outcome:** Achieved 100% BUSCO completeness and established a production-grade, highly reproducible workflow.
+### [targetasm](https://github.com/Yixuan39/targetasm)
 
-#### 3. [Evolutionary Statistical Modeling Extension (MG94)](https://github.com/Yixuan39/IGC-fish.git)
-* **Objective:** Enhanced classical phylogenetic models to test new evolutionary hypotheses.
-* **Methods:** Maximum Likelihood Estimation (MLE), likelihood-ratio tests, Python.
-* **Outcome:** Validated statistical significance on real genomic datasets.
+*With Lina Quesada and Benjamin Callahan · Manuscript in preparation*
 
----
+A modular Nextflow DSL2 workflow for recovering target eukaryotic genomes from highly contaminated PacBio HiFi reads. It integrates assembly, multi-stage decontamination, quality control, reproducible HPC execution, and RNA-seq-supported protein validation.
 
-### 📝 Selected Publications
-* **Yang, Y.** et al. Interlocus Gene Conversion, Natural Selection, and Paralog Homogenization. *Molecular Biology and Evolution*, 2023. [DOI](https://doi.org/10.1093/molbev/msad198)
-* **Yang, Y.** et al. Gut Microbiome Alterations in Canine Idiopathic Epilepsy: A Pairwise Case-Control Study. *(In review, 2025)*
+### [CanineEpilepsy2](https://github.com/Yixuan39/CanineEpilepsy2)
+
+*With Benjamin Callahan and Karen R. Muñana*
+
+Reproducible analyses for a household-matched case-control study of gut microbiome alterations in 98 dogs. The study evaluated community structure and six differential-abundance methods, identifying household as the dominant source of microbiome variation.
+
+### [IGC-fish](https://github.com/Yixuan39/IGC-fish)
+
+*With Jeff Thorne and Xiang Ji*
+
+Statistical modeling of interlocus gene conversion, natural selection, and paralog homogenization. This work extended the MG94 codon framework with an IGC component and evaluated competing evolutionary hypotheses using maximum-likelihood estimation and likelihood-ratio tests.
+
+### [TrIdent](https://github.com/jlmaier12/TrIdent)
+
+Replaced the original grid search for pattern matching with a DIRECT-based optimization approach, improving runtime by approximately 4,000×. TrIdent is an R/Bioconductor package for detecting, classifying, and characterizing active transduction events in microbiomes from sequencing-coverage patterns.
+
+## Selected publications
+
+- **Yang, Y.**, Nettifee, J., Azcarate-Peril, M. A., Muñana, K. R., & Callahan, B. (2026). Gut microbiome alterations in canine idiopathic epilepsy: a pairwise case-control study. *Animal Microbiome*. [doi:10.1186/s42523-026-00594-1](https://doi.org/10.1186/s42523-026-00594-1)
+- **Yang, Y.**, Xu, T., Conant, G. C., Kishino, H., Thorne, J. L., & Ji, X. (2023). Interlocus gene conversion, natural selection, and paralog homogenization. *Molecular Biology and Evolution*, 40, msad198. [doi:10.1093/molbev/msad198](https://doi.org/10.1093/molbev/msad198)
+
+## Connect
+
+[Google Scholar](https://scholar.google.com/citations?user=DwgSrPIAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0003-5064-6512) · [LinkedIn](https://www.linkedin.com/in/yixuan-yang-319978184/) · [Email](mailto:yyang55@ncsu.edu)
+
+Always happy to chat about computational biology, statistics, multi-omics, and reproducible research.
