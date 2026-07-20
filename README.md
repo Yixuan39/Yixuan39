@@ -8,7 +8,7 @@ My work combines statistical modeling, reproducible workflows, and scientific so
 
 ## Methods and tools
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) ![Bioconductor](https://img.shields.io/badge/Bioconductor-5A8C8C?style=flat) ![Nextflow](https://img.shields.io/badge/Nextflow-23AA62?style=flat)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) ![](https://img.shields.io/badge/Nextflow-0DC09D?logo=nextflow&logoColor=fff&style=flat-square) 
 
 - **Quantitative methods:** Statistical inference, study design, causal inference, compositional data analysis, differential expression and abundance, machine learning
 - **Biological data:** Metagenomics, metaproteomics, PacBio HiFi sequencing, amplicon sequencing, RNA-seq
